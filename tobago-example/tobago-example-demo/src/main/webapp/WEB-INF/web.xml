@@ -80,9 +80,9 @@
   -->
 
 <!-- this is not needed for websphere 8.5 -->
-  <listener>
-    <listener-class>org.apache.webbeans.servlet.WebBeansConfigurationListener</listener-class>
-  </listener>
+  <!--<listener>-->
+    <!--<listener-class>org.apache.webbeans.servlet.WebBeansConfigurationListener</listener-class>-->
+  <!--</listener>-->
 
 <!-- this is an alternative to the WebBeansConfigurationListener
      you need it e.g. for Tomcat 5.5 or WebSphere 6.1 (see TOBAGO-1043)
